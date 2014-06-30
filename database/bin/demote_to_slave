@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo service postgresql stop
+rm -rf /var/lib/postgresql/9.3/main
+
+exit 0

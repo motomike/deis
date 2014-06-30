@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo -u postgres createuser --login --superuser repmgr
+
+exit 0
