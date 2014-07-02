@@ -212,11 +212,6 @@
             "LoadBalancerPort": "2222",
             "Protocol": "TCP"
           }
-        ],
-        "SecurityGroups": [
-          {
-            "Fn::GetAtt": ["DeisWebELBSecurityGroup", "GroupId"]
-          }
         ]
       }
     },
